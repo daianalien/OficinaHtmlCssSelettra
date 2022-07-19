@@ -1,6 +1,43 @@
-h1{
-    text-align: center;    
+body {
+    background: #C1CDC1;
 }
-em strong{
+
+.sobre {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.texto-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 1em auto;
+    clear: left;
+}
+
+.index-principal p {
+    margin-bottom: 1em;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em strong {
     color: red;
+}
+
+.missao {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.conteudo-beneficios{
+    display: inline-block;
+    margin-right: 30%;
+    vertical-align: top;
+    list-style: circle;
+}
+
+.imagem-beneficios {
+    width: 35%;
 }

@@ -3,7 +3,6 @@ Repositório para que os participantes da oficina possam acompanhar o desenvolvi
 
 <h2>Links relevantes</h2>
 <p>Tags HTML5: https://www.w3schools.com/tags/default.asp</p>
-<p>Propriedades CSS3: https://www.w3schools.com/cssref/</p>
 <p>Tabela de cores HTML: https://www.flextool.com.br/tabela_cores.html</p>
 
 <h2>Cronograma da oficina</h2>
@@ -12,7 +11,6 @@ Repositório para que os participantes da oficina possam acompanhar o desenvolvi
 <details><summary><h3>Etapa I: Início do projeto</h3></summary>
   <h4>Parte I</h4>
   <h4>Quarta-feira dia 13/07/2022</h4>
-  <h5>Gravação: https://youtu.be/QBCjSeJqsqc</h5>
   <p>Conteúdo: </p>
   <p>- Marcação do primeiro texto;</p>
   <p>- Separando conteúdos e informações;</p>

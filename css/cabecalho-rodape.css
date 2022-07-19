@@ -1,0 +1,58 @@
+header {
+    background: url("../img/bg.jpg");
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagem-cabecalho {
+    width: 25%;
+}
+
+nav {
+    position: absolute;
+    top: 60px;
+    right: 0;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.banner{
+    width: 100%;
+}
+
+p {
+    padding-left: 20px;
+}
+
+.texto-centralizado{
+    text-align: center;
+
+}
+
+/* rodapé */
+
+footer {
+    background: url(/img/bg.jpg);
+    padding: 40px;
+    text-align: center;
+}
+
+.imagem-rodape {
+    width: 10%;
+}
