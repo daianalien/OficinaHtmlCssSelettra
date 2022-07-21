@@ -8,6 +8,11 @@ header {
     margin: 0 auto;
 }
 
+.caixa li:hover {
+    color: #B73133;
+    text-decoration: underline;
+}
+
 .imagem-cabecalho {
     width: 25%;
 }
