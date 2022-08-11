@@ -61,3 +61,8 @@ footer {
 .imagem-rodape {
     width: 10%;
 }
+
+.copyright {
+    font-size: 16px;
+    margin-top: 12px;
+}

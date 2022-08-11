@@ -1,0 +1,47 @@
+.container-contato {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.container-contato form {
+    margin: 40px 0;
+
+}
+.container-contato form label, .contato form legend {
+    display: block;
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 10px;
+}
+.input-contato {
+    display: block;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    width: 50%;
+    margin: 0 0 20px;
+
+}
+
+.container-contato form legend {
+    font-weight: bold;
+    color: black;
+}
+
+.enviar:hover {
+    background: rgb(173, 62, 62);
+    transform: scale(1.2);
+}
+
+.enviar {
+    background: rgb(168, 43, 43);
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+.checkbox {
+    margin-top: 30px;
+}

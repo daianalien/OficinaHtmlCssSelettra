@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selettra Gourmet - Contato</title>
+    <link rel="icon" href="../img/logo_bola.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/cabecalho-rodape.css">
+    <link rel="stylesheet" href="../css/contato.css">
+
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1>
+                <img class="imagem-cabecalho" src="../img/logo_selettra.png" alt="logo selettra">
+            </h1>
+            <nav>
+                <ul>
+                    <a href="/index.html" target="_blank"><li>Home</li></a>
+                    <a href="/html/produtos.html" target="_blank"><li>Produtos</li></a>
+                    <a href="" target="_blank"><li>Contato</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container-contato">
+        <form>
+            <label for="nome">Nome e Sobrenome</label>
+            <input id="nome" type="text" placeholder="Digite seu nome" class="input-contato" alt="insira seu nome" required />
+
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="email@email.com" class="input-contato" alt="insira seu email" required />
+
+            <label for="telefone">Telefone</label>
+            <input id="telefone" type="text" placeholder="(xx)xxxxxxxx" class="input-contato" alt="insira seu telefone" required />
+
+            <label for="mensagem">Mesagem</label>
+            <textarea  id="mensagem" cols="68" rows="10"></textarea>
+
+            <fieldset>
+                <legend>Como prefere nosso contato?</legend>
+
+                <label for="radio-email"><input type="radio" id="radio-email" name="contato" value="email">Email</label>               
+                <label for="radio-telefone"><input type="radio" id="radio-telefone" name="contato" value="telefone">Telefone</label>                
+                <label for="radio-whatsapp"><input type="radio" id="radio-whatsapp" name="contato" value="whatsapp" checked>Whatsapp</label>
+
+            </fieldset>
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+            <label><input class="checkbox" type="checkbox" checked>Gostaria de receber nossas novidades por e-mail? </label>
+            
+
+            <input class="enviar" type="submit" value="Enviar formulário">
+        </form>
+        
+    </main>
+    <footer>
+        <img class="imagem-rodape" src="/img/logo_selettra.png" alt="imagem logo selettra gourmet">
+        <p class="copyright">&copy; Copyright Gourmet Selettra 2022</p>
+    </footer>
+</body>
+</html>
+
